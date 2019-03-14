@@ -2,10 +2,12 @@
 Fully open source (s/w & h/w) scale project.
   
   
-**Main repository of the project is on gitlab:**  
-Click Me(https://gitlab.com/jousis/espresso-scale/)  
+**Main repository of the project is on gitlab**  
+https://gitlab.com/jousis/espresso-scale    
+**Library only repository**
+https://gitlab.com/jousis/ads1232-library  
   
-     
+  
 **Demo videos**
 - https://www.youtube.com/watch?v=8tvMJu86iec
 - https://www.youtube.com/watch?v=bEaxTo1kfss
