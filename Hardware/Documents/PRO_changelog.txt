@@ -1,0 +1,15 @@
+v3 (in prototyping)
+-(bug solved) Placed R15 pulldown on TFT backlight pin.
+-(bug solved) No more in-pcb touch pads. They are unreliable in 2-layer pcb.
+-(bug solved) T0 left floating. Was causing too many issues on reboot when used as touch or input pin with external modules.
+-(feature) voltage divider / battery monitor circuit with mosfet with on/off control (saves power).
+-(feature) 3 external digital IO connectors with VCC / IO / GND pins. Middle pin is touch pin of ESP if you want to try your luck.
+-(feature) Both LDOs are now SOT-23-5 with enable pin support. Our main LDO had enable pin pulled high, analog is tied to our MCU.
+-(feature) analog LDO now has series R with second CAP, if you use MLCC and want to add some R, do it.
+-(feature) analog LDO now has 0805 capacitor next to the (usually NC) pin 5. If your LDO supports low noise operation with an extra cap, use it.
+-(feature) low profile buttons
+-(feature) indicator LED near low bat/charging LEDs (use low power LED)
+-1uF feedthrough caps on analog reference/input (ADS1232 ref design).
+-better positioning of 100pF filters.
+-open source hardware association certification logo in silkscreen.
+-X2Y tests failed and gone back to REF design. I didn't gain anything measurable and space saving was minimal.
